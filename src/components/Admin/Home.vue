@@ -51,7 +51,7 @@ export default {
     name: 'HomeItem',
     data(){
         return {
-            isCollapse: true,
+            isCollapse: false,
             menulist:[
                 {id:"001",authName:"首页",path:"welcome"},
                 {id:"002",authName:"活动信息配置",path:"create"},
